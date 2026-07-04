@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About CSS</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #f0f4f8, #d9e4ec);
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #4a90e2;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 1px;
+    }
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #4a90e2;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 0.5rem;
+    }
+    p {
+      line-height: 1.6;
+      margin: 1rem 0;
+    }
+    ul {
+      margin: 1rem 0;
+      padding-left: 1.5rem;
+    }
+    li {
+      margin: 0.5rem 0;
+    }
+    .highlight {
+      background: #eaf4ff;
+      padding: 0.5rem;
+      border-left: 4px solid #4a90e2;
+      margin: 1rem 0;
+      border-radius: 4px;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #4a90e2;
+      color: white;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>About CSS</h1>
+  </header>
+
+  <section>
+    <h2>What is CSS?</h2>
+    <p>CSS (Cascading Style Sheets) is the language used to style and lay out web pages—transforming basic HTML structure into a visually appealing experience.</p>
+    <div class="highlight">“Cascading” refers to the priority system that determines which styles win when multiple rules conflict.</div>
+
+    <h2>Core Concepts</h2>
+    <p>CSS works by applying a <strong>ruleset</strong> to specific HTML elements. A <strong>Selector</strong> points to the element, and a <strong>Declaration</strong> defines the property and value.</p>
+
+    <h2>The CSS Box Model</h2>
+    <ul>
+      <li><strong>Content:</strong> Text, images, or video</li>
+      <li><strong>Padding:</strong> Space inside the border</li>
+      <li><strong>Border:</strong> Surrounds padding and content</li>
+      <li><strong>Margin:</strong> Space outside the border</li>
+    </ul>
+
+    <h2>Modern Layout Tools</h2>
+    <p><strong>Flexbox:</strong> One-dimensional layouts (rows or columns).</p>
+    <p><strong>Grid:</strong> Two-dimensional layouts for complex designs.</p>
+    <p><strong>Responsive Design:</strong> Media queries adapt layouts for different devices.</p>
+
+    <h2>Interactive Styling</h2>
+    <p>Pseudo-classes like <code>:hover</code>, smooth transitions, and animations with <code>@keyframes</code> bring interactivity.</p>
+
+    <h2>Advanced Features (2024)</h2>
+    <ul>
+      <li>CSS Variables</li>
+      <li>Nesting</li>
+      <li>Container Queries</li>
+    </ul>
+
+    <h2>Preprocessors & Frameworks</h2>
+    <p>Sass, Less, Bootstrap, and Tailwind CSS help manage large projects efficiently.</p>
+  </section>
+
+  <footer>
+    <p>back to login<a href="project.html"> back to login</a></p>
+  </footer>
+</body>
+</html>
